@@ -12,7 +12,7 @@ interface Adventure {
 export default function AdventureCard({ item }: Adventure) {
   return (
     <>
-      <Card className={"hover:scale-105 transition-all"}>
+      <Card className={"hover:scale-105 transition-all cursor-pointer"}>
         <CardTitle className={"text-center my-1 "}>
           {item.name ? item.name : <p>Name unavailable</p>}
         </CardTitle>

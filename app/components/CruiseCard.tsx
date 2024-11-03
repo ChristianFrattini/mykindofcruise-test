@@ -1,7 +1,6 @@
 "use client";
 import { ChevronRight } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import toast from "react-hot-toast";
 
@@ -86,15 +85,13 @@ export default function CruiseCard({ item }: CruiseCardProps) {
 
       <div className="flex justify-center items-center mt-4">
         <button
-          className="p-2 bg-blue-800/80 rounded-xl text-gray-200 group"
+          className="p-2 bg-blue-800/80 rounded-xl text-gray-200 group flex"
           onClick={notify}
         >
-          <Link href={``} className={"flex"}>
-            Add Trip
-            <ChevronRight
-              className={"group-hover:translate-x-1 transition-all"}
-            />
-          </Link>
+          Add Trip
+          <ChevronRight
+            className={"group-hover:translate-x-1 transition-all"}
+          />
         </button>
       </div>
     </div>

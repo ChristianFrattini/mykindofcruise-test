@@ -10,7 +10,7 @@ export default async function Adventures() {
       <h2 className={"font-bold leading-8 text-2xl"}>Adventures</h2>
       <div
         className={
-          "grid gap-x-36 gap-y-5 w-full container grid-cols-1 sm:grid-cols-2 md:grid-cols-2 my-5 "
+          "grid gap-x-40 gap-y-5 w-full container grid-cols-1 sm:grid-cols-2 md:grid-cols-2 my-5 "
         }
       >
         {adventuresData && adventuresData.length > 0 ? (

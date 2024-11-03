@@ -3,7 +3,14 @@
 @tailwind utilities;
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  font-family: var(--font-outfit);
+  margin: 0;
+  padding: 0;
 }
 
 @layer base {
