@@ -29,4 +29,4 @@ The project has been built using NEXTJS and includes type safety. Furthermore, m
 
 Outfit font is applied though the entire project
 
-external libraries used: SHADCNUI, react-hot-toast
+libraries used: SHADCNUI, react-hot-toast, tailwind css
