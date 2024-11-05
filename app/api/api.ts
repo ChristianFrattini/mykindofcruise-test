@@ -5,7 +5,7 @@ interface Adventure {
 
 export async function getAdventuresdata(): Promise<Adventure[]> {
   try {
-    const response = await fetch("https://jjzl6.wiremockapi.cloud/adventures");
+    const response = await fetch(process.env.ADVENTURES_API as string);
     if (!response.ok) {
       throw new Error("Response encounterd an error");
     }
@@ -35,7 +35,7 @@ interface Cruise {
 
 export async function getCruisesdata(): Promise<Cruise[]> {
   try {
-    const response = await fetch("https://jjzl6.wiremockapi.cloud/cruises");
+    const response = await fetch(process.env.CRUISES_API as string);
     if (!response.ok) {
       throw new Error("Response encounterd an error");
     }
