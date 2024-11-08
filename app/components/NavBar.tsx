@@ -16,7 +16,7 @@ export default async function NavBar() {
   return (
     <nav
       className={
-        "w-full flex justify-between items-center z-50 py-5 bg-blue-900"
+        "w-full flex justify-between items-center z-50 py-5 bg-blue-900 fixed top-0"
       }
     >
       <div className={"md:ml-5 ml-3"}>
