@@ -6,7 +6,7 @@ export default async function Adventures() {
   const adventuresData = await getAdventuresdata();
 
   return (
-    <div className={"mx-2"}>
+    <div className={"md:mx-2 mx-4"}>
       <h2 className={"font-bold leading-8 text-2xl"}>Adventures</h2>
       <div
         className={
